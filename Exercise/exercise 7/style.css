@@ -1,0 +1,31 @@
+li{
+    color: purple;
+}
+
+h1,h2{
+    color: rgb(0,0,225)
+}
+
+#submit{
+    background-color: rgb(0,200,0);
+}
+
+#flavors span{
+    color: rgb(200,0,0);
+}
+
+ul li.size{
+    color: magenta;
+}
+
+input[type= "email"]{
+    background-color: orange;
+}
+
+a[href$=".org"]{
+    color: magenta;
+}
+
+h2.bright{
+    color: cyan;
+}

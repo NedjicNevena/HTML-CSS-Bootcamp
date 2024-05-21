@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitt page</title>
+</head>
+<body>
+    
+    <h1>Course landing page</h1>
+    
+    <form method="get" action="./submittion.html">
+    
+        <div>
+            <label> Course title
+                <input type="text" required>
+            </label>
+        </div>
+    
+        <div>
+            <label for="description">Course description</label>
+                <br>
+            <textarea id="description" placeholder="Add description here..." cols="30" rows="20"></textarea>
+        </div>
+
+        <div>
+            <label for="coursetype">Select course</label>
+                <select id="coursetype">
+                    <option>-- Choose course level --</option>
+                    <option value="beginner">Beginner level course</option>
+                    <option value="junior">Junior level couse</option>
+                    <option value="mediun">Medium level course</option>
+                    <option value="senior">Senior level course</option>
+                </select>
+        </div>
+
+        <div>
+            <label for="confirmation"> Ready to post the course?</label>
+            <input type="checkbox" id="confirmation" checked="default">
+        </div>
+
+        <button>Submit</button>
+
+    </form>
+
+</body>
+</html>
